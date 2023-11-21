@@ -1,0 +1,221 @@
+@media only screen and (min-width:1440px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    :root {
+        --orange: hsl(25, 97%, 53%);
+        --white: hsl(0, 0%, 100%);
+        --lightGrey: hsl(217, 12%, 63%);
+        --mediumGrey: hsl(216, 12%, 54%);
+        --darkBlue: hsl(213, 19%, 18%);
+        --veryDarkBlue: hsl(216, 12%, 8%);
+    }
+
+    @font-face {
+        font-family: 'Overpass';
+        src: url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    body {
+        font-size: 0.9375rem;
+        font-family: 'Overpass', sans-serif;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--veryDarkBlue);
+    }
+
+    .container {
+        height: 400px;
+        width: 370px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--darkBlue);
+        border-radius: 18px;
+    }
+
+    .container > .subContainer {
+        height: 335px;
+        width: 308px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .container > .subContainer > .head {
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: var(--mediumGrey);
+    }
+
+    .container > .subContainer > .head > img {
+        margin-top: 0.9580em;
+        text-align: center;
+    }
+
+    .container > .subContainer > .heading {
+        width: 100%;
+        height: 50px;
+    }
+
+    .container > .subContainer > .heading > h2 {
+        margin-top: 0.3em;
+        color: var(--white);
+        font-weight: 700;
+    }
+
+    .container > .subContainer > .para {
+        width: 100%;
+        height: 85px;
+        line-height: 1.4;
+        color: var(--lightGrey);
+        font-weight: 400;
+    }
+
+    .container > .subContainer > form > .rating {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: var(--lightGrey);
+        width: 100%;
+        height: 60px;
+        font-weight: 700;
+    }
+
+    .container > .subContainer > form > .rating > .one {
+        background-color: var(--mediumGrey);
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        border-radius: 50%;
+    }
+
+    .container > .subContainer > form > .rating > *:hover {
+        cursor: pointer;
+    }
+
+    .container > .subContainer > form > .rating > .one > p {
+        margin-top: 0.8200em;
+        color: var(--white);
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .container > .subContainer > form > .rating > .one:hover {
+        background-color: var(--orange);
+    }
+
+    .container > .subContainer > form > .rating > .two {
+        background-color: var(--mediumGrey);
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        border-radius: 50%;
+    }
+
+    .container > .subContainer > form > .rating > .two > p {
+        margin-top: 0.8200em;
+        color: var(--white);
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .container > .subContainer > form > .rating > .two:hover {
+        background-color: var(--orange);
+    }
+
+    .container > .subContainer > form > .rating > .three {
+        background-color: var(--mediumGrey);
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        border-radius: 50%;
+    }
+
+    .container > .subContainer > form > .rating > .three > p {
+        margin-top: 0.8200em;
+        color: var(--white);
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .container > .subContainer > form > .rating > .three:hover {
+        background-color: var(--orange);
+    }
+
+    .container > .subContainer > form > .rating > .four {
+        background-color: var(--mediumGrey);
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        border-radius: 50%;
+    }
+
+    .container > .subContainer > form > .rating > .four > p {
+        margin-top: 0.8200em;
+        color: var(--white);
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .container > .subContainer > form > .rating > .four:hover {
+        background-color: var(--orange);
+    }
+
+    .container > .subContainer > form > .rating > .five {
+        background-color: var(--mediumGrey);
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        border-radius: 50%;
+    }
+
+    .container > .subContainer > form > .rating > .five > p {
+        margin-top: 0.8200em;
+        color: var(--white);
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .container > .subContainer > form > .rating > .five:hover {
+        background-color: var(--orange);
+    }
+
+    .container > .subContainer > .button {
+        align-self: center;
+    }
+
+    .container > .subContainer > .button > button {
+        padding: 1.09em 9.6em;
+        border-radius: 25px;
+        border: none;
+        background-color: var(--orange);
+        color: var(--white);
+        font-weight: 700;
+    }
+
+    .container > .subContainer > .button > button:hover {
+        cursor: pointer;
+        background-color: var(--white);
+        color: var(--orange);
+    }
+
+}
