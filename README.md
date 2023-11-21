@@ -24,8 +24,8 @@
 
 ### Links 🔗
 
-- Solution URL: [page]()
-- Live Site URL: [page]()
+- Solution URL: [page](https://www.frontendmentor.io/solutions/build-with-flexbox-kFZ8NLEwsq)
+- Live Site URL: [page](https://sivin-wi.github.io/interactive-rating-component-main/)
 
 ## My process
 
